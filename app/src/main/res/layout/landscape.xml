@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dice_1502706_1280">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="867dp"
+            android:layout_height="77dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/white"
+            android:text="@string/score"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/additionButton"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_weight="1"
+                android:maxWidth="300dp"
+                android:text="@string/additionButton" />
+
+            <ImageView
+                android:id="@+id/diceImageView"
+                android:layout_width="58dp"
+                android:layout_height="191dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dice_1" />
+
+            <Button
+                android:id="@+id/substractButton"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/substractButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="164dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/resetButton" />
+
+            <Button
+                android:id="@+id/rollButton"
+                android:layout_width="179dp"
+                android:layout_height="73dp"
+                android:layout_marginLeft="400dp"
+                android:layout_marginRight="25dp"
+                android:text="@string/rollButton" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

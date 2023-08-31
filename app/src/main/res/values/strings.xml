@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dice roll</string>
+    <string name="score">score</string>
+    <string name="additionButton">Add</string>
+    <string name="substractButton">Substract</string>
+    <string name="resetButton">Reset</string>
+    <string name="rollButton">Roll</string>
+</resources>

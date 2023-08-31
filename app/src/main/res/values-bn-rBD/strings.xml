@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ডাইস রোল</string>
+    <string name="score">স্কোর</string>
+    <string name="additionButton">যোগ</string>
+    <string name="substractButton">বিয়োগ</string>
+    <string name="resetButton">রিসেট</string>
+    <string name="rollButton">রোল</string>
+
+</resources>
+
